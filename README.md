@@ -12,13 +12,13 @@
 [Install with npm](https://www.npmjs.org/doc/cli/npm-install.html). (Make sure you have installed [Node](http://nodejs.org/).)
 
 ```
-npm i --save-dev broccoli-css-mqpacker
+npm i --save-dev rp-broccoli-css-mqpacker
 ```
 
 ## Example
 
 ```javascript
-var packMediaQueries = require('broccoli-css-mqpacker');
+var packMediaQueries = require('rp-broccoli-css-mqpacker');
 tree = packMediaQueries(tree, options);
 ```
 
